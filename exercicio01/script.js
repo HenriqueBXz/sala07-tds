@@ -21,5 +21,20 @@ function div(){
     var numero7 = parseFloat(document.getElementById("n7").value)
     var numero8 = parseFloat(document.getElementById("n8").value) 
     var resposta = document.getElementById("respDiv")
-    resposta.textContent = numero7 / numero8
+    
+    if(numero8 !==0){
+        resposta.textContent= numero7/ numero8
+    }else{
+        resposta.textContent = "não se divide por 0"
+    }
+
+}
+function media(){
+    var nota1 = parseFloat(document.getElementById("nota1").value)
+    var nota2 = parseFloat(document.getElementById("nota2").value) 
+    var nota3 = parseFloat(document.getElementById("nota3").value)
+    var nota4 = parseFloat(document.getElementById("nota4").value)
+    var nota5 = parseFloat(document.getElementById("nota4").value) 
+    var resposta = document.getElementById("respMedia")
+    resposta.textContent = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 }
