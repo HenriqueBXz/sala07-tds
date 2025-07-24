@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.341);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    border: 3px solid white;
+    animation: top 1s linear;
+}

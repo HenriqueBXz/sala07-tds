@@ -40,7 +40,11 @@ function media(){
     var resposta = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
     if(resposta >= 7){
         respMedia.style.color = 'green'
+        respMedia.style.backgroundColor = 'lightgreen'
+
     }else{
         respMedia.style.color = 'red'
+        respMedia.style.backgroundColor = 'lightpink'
+
     }
 }
