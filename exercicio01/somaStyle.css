@@ -4,9 +4,8 @@
     box-shadow: border-box;
 
 }
-
-.background {
-    background-image: url();
+.background{
+    background-image: url('./images/minecraft2.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -104,7 +103,7 @@ input::placeholder {
     color: black;
 }
 
-#respSoma{
+#respMedia{
     font-size: 36px;
     border-radius: 100%;
     width: 100px;
