@@ -32,23 +32,23 @@ nav a:hover{
 #s1{
     min-height: 100vh;
     padding-top: 80px;
-    background-color: rgb(165, 42, 42);
+    background-color: rgb(158, 62, 21);
 }
 
 #s2{
     min-height: 100vh;
     padding-top: 80px;
-    background-color: rgb(128, 165, 42);
+    background-color: rgb(32, 139, 184);
 }
 
 #s3{
     min-height: 100vh;
     padding-top: 80px;
-    background-color: rgb(42, 83, 165);
+    background-color: rgb(54, 169, 28);
 }
 
 #s4{
     min-height: 100vh;
     padding-top: 80px;
-    background-color: rgb(157, 42, 165);
+    background-color: rgb(67, 84, 67);
 }
