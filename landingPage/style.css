@@ -39,22 +39,92 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.wrap-img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 6px solid rgb(255, 255, 255);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-s1{
+    width: 300px;
+    height: 300px;
+    transition: all 200ms ease-in-out;
+}
+
+.img-s1:hover{
+    transform: scale(1.2);
+}
+
+.wrap-words{
+    width: 40%;
 }
 
 #s2 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: rgb(32, 139, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.img-s2{
+    width: 300px;
+    height: auto;
+}
+
+.wrap-words{
+    width: 40%;
 }
 
 #s3 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: rgb(54, 169, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.img-s3{
+    width: 300px;
+    height: auto;
+}
+
+.wrap-words{
+    width: 40%;
 }
 
 #s4 {
     min-height: 100vh;
     padding-top: 80px;
     background-color: rgb(67, 84, 67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.img-s3{
+    width: 300px;
+    height: auto;
+}
+
+.wrap-words{
+    width: 40%;
 }
